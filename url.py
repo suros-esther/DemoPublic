@@ -7,7 +7,7 @@ baseHead = ['DB編號', 'URL']
 
 
 #input search url to get dbNoList
-searchURL = "hyc-king"
+searchURL = "howweih"
 
 
 dbNoListURL = []
