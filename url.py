@@ -11,7 +11,7 @@ searchURL = "hyc-king"
 
 
 dbNoListURL = []
-for i in range(0,1902):
+for i in range(0,1902): #pandas已預設第一列為Head，故從0開始。若Excel資料無標題，則需給Head = None指令。
 	cellValue = baseData[baseHead[1]].values[i]
 	if searchURL.lower() in str(cellValue).lower():
 		dbNo = str(baseData[baseHead[0]].values[i]).strip()
